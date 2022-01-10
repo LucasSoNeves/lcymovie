@@ -5,18 +5,18 @@ function Navbar() {
 
     return (
         <header>
-            <nav className="container">
-                <div className="lcymovie-nav-content">
-                    <h1>Lcymovie</h1>
-                    <a href="https://github.com/LucasSoNeves">
-                        <div>
-                            <GithubIcon />
-                            <p>/LucasSoNeves</p>
-                        </div>
-                    </a>
+    <nav className="container">
+        <div className="lcymovie-nav-content">
+            <h1>DSMovie</h1>
+            <a href="https://github.com/LucasSoNeves" target="_blank" rel="noreferrer">
+                <div className="lcymovie-contact-container">
+                    <GithubIcon />
+                    <p className="lcymovie-contact-link">/LucasSoNeves</p>
                 </div>
-            </nav>
-        </header>
+            </a>
+        </div>
+    </nav>
+</header>
     );
 }
 
