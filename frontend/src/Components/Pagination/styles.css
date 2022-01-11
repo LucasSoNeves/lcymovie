@@ -1,0 +1,53 @@
+.lcymovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lcymovie-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lcymovie-pagination-box form {
+    width: 100%;
+    display: flex;
+}
+
+.lcymovie-pagination-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.lcymovie-pagination-button svg {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%) hue-rotate(234deg) brightness(89%) contrast(92%);
+}
+
+.lcymovie-pagination-button:disabled {
+    border: 1px solid #c2c2c2;
+    cursor: unset;
+}
+
+.lcymovie-pagination-button:disabled svg {
+    filter: none;
+}
+
+.lcymovie-pagination-container p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+}
+
+.lcymovie-flip-horizontal {
+    transform: rotate(180deg);
+}
