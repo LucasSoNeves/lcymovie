@@ -7,7 +7,7 @@ header {
 
 .lcymovie-nav-content h1{
     margin: 0;
-    font-weight: 700;
+    font-weight: 701;
     font-size: 24px;
 }
 
@@ -15,10 +15,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: rgb(248, 244, 244);
 }
 
-.lcymovies-contact-conteiner{
+.lcymovie-contact-container {
     display: flex;
     align-items: center;
 }
