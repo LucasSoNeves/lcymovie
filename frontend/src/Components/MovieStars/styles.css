@@ -1,0 +1,10 @@
+.lcymovie-stars-container {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lcymovie-stars-container svg {
+    width: 22px;
+    height: auto;
+}
