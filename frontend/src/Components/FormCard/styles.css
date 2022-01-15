@@ -14,7 +14,7 @@
 
 .lcymovie-form-group label {
     font-size: 12px;
-    color: #aaa;
+    color: rgb(158, 157, 157);
 }
 
 .lcymovie-form-btn-container {
@@ -24,7 +24,7 @@
 
 .lcymovie-movie-card-image {
     width: 100%;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .lcymovie-card-bottom-container {
