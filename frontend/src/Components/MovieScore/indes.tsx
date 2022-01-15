@@ -1,15 +1,17 @@
 import MovieStars from "Components/MovieStars";
 import './styles.css';
 
-function MovieScore() {
+type Props = {
+    score: number;
+    count: number
+}
 
-    const score = 3.5;
-    const count = 13;
+function MovieScore({ score, count } : Props) {
 
     return (
         <div className="lcymovie-score-container">
             <p className="lcymovie-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
-            <MovieStars />
+            <MovieStars score={score} />
             <p className="lcymovie-score-count">{count} avaliações</p>
         </div>
     );
